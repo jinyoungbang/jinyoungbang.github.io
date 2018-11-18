@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.introduction {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(images/background.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+} 
+
+.introduction  .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: regular;
+    font-size: 300%;
+    color: #F9F3F4;
+    text-shadow: 0px 0px 300px #000;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Playfair Display', serif;
+    color: #f9f2f7;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #f9f2f7 1px;
+    text-decoration: none;
+}
+
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 140%;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 120%;
+    line-height: 140%;
+    text-align: justify;
+    margin: 4%;
+    font-family: 'Roboto', Times, serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .content h1{
+        font-size: 150%;
+    }
+    .btn {
+        font-size: 103%;
+        padding: 7px 15px;
+    }
+
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
