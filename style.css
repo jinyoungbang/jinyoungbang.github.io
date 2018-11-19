@@ -58,14 +58,66 @@ html, body {
     text-align: center;
 }
 
+
 .paragraph {
-    font-size: 120%;
+    font-size: 105%;
     line-height: 140%;
     text-align: justify;
-    margin: 4%;
+    margin: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: 'Roboto', Times, serif;
     font-weight: 300;
 }
+
+.paragraph-ed {
+    font-size: 105%;
+    line-height: 140%;
+    text-align: justify;
+    margin: 3%;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Roboto', Times, serif;
+    font-weight: 300;
+    float: left;
+
+}
+
+div .ed-photo {
+    padding-right: 5%;
+    padding-top: 5%;
+    border: 0%;
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+.paragraph-ed h2 {
+    font-size: 130%;
+    color: #1D71E9;
+    margin-right: 35%;
+}
+
+.paragraph-ed h3 {
+    font-size: 90%;
+    color: #EDA411;
+    margin-right: 35%;
+}
+
+.paragraph-ed h4 {
+    font-size: 85%;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.paragraph-ed p {
+    margin-right: 35%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
 
 @media screen and (max-width: 768px) {
     .content h1{
