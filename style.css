@@ -9,6 +9,16 @@ html, body {
     width: 100%;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1.4px solid #ccc;
+    margin: 1em 0;
+    margin-top: 4%;
+    padding: 0;
+}
+
 .introduction {
     height: 100%;
     width: 100%;
@@ -97,18 +107,23 @@ div .ed-photo {
     font-size: 130%;
     color: #1D71E9;
     margin-right: 35%;
+    margin-top: 4%;
 }
 
 .paragraph-ed h3 {
     font-size: 90%;
     color: #EDA411;
     margin-right: 35%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .paragraph-ed h4 {
     font-size: 85%;
     font-style: bold;
     font-weight: 900;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .paragraph-ed p {
@@ -118,6 +133,27 @@ div .ed-photo {
 html {
     scroll-behavior: smooth;
   }
+
+.contacts{
+    text-align: center;
+}
+
+div .finalphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img.finalphoto-pic1 {
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+img.finalphoto-pic2 {
+    margin-top: 2%;
+    margin-left: 15%;
+}
 
 @media screen and (max-width: 768px) {
     .content h1{
