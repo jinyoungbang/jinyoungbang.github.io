@@ -19,6 +19,10 @@ hr {
     padding: 0;
 }
 
+section {
+    padding: 0.1px;
+}
+
 .introduction {
     height: 100%;
     width: 100%;
@@ -90,7 +94,6 @@ hr {
     margin-right: 15%;
     font-family: 'Roboto', Times, serif;
     font-weight: 300;
-    float: left;
 
 }
 
@@ -138,6 +141,17 @@ html {
     text-align: center;
 }
 
+p.contacts {
+    font-size: 105%;
+    line-height: 150%;
+    text-align: justify center;
+    margin: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Roboto', Times, serif;
+    font-weight: 300;
+}
+
 div .finalphoto {
     display: block;
     margin-left: auto;
@@ -145,17 +159,68 @@ div .finalphoto {
     width: 50%;
 }
 
-img.finalphoto-pic1 {
-    margin-top: 2%;
-    margin-left: 20%;
+
+.projects {
+    background-color: #eee;
+    padding: 4%
 }
 
-img.finalphoto-pic2 {
-    margin-top: 2%;
-    margin-left: 15%;
+header {
+    margin: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
 }
 
-@media screen and (max-width: 768px) {
+.iconheader {
+    margin: .5vw;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+
+
+header div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 250px;
+    margin: 2%;
+}
+
+.iconcenter {
+    text-align: center;
+}
+
+header div img {
+    width: 100%;
+    height: auto;
+}
+
+img.icon {
+    width: 25%;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    header div {
+        margin: 0;
+    }
+
     .content h1{
         font-size: 150%;
     }
