@@ -480,6 +480,15 @@ mark,
   height: auto;
 }
 
+.img-fluid-icon {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -10746,4 +10755,15 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: left;
 }
