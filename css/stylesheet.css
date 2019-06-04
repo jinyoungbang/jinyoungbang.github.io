@@ -59,10 +59,10 @@ body {
 
 #construction h1 {
     font-family: 'VT323', monospace !important;
-    color: rgb(242, 73, 73);
+    color: #f2b04e;
     text-align: center;
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 18rem;
 }
 
 footer {
