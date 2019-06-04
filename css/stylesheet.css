@@ -57,13 +57,17 @@ body {
     margin-right: 1.5em;
 }
 
-#footer{
-    width: 100%;
-    height: 200px;
-    background-color: #b85e45;
-    padding-top: 50px;
-    margin-top: 50px;
-  }
+#construction h1 {
+    font-family: 'VT323', monospace !important;
+    color: rgb(242, 73, 73);
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+footer {
+    margin-bottom: 1rem;
+}
 
 
 a {
