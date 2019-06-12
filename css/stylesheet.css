@@ -42,8 +42,8 @@ body {
 }
 
 #hero-page h2 {
-    font-size: 500%;
-    color: red;
+    font-size: 1.5rem;
+    color: #f2b04e;
     font-family: 'VT323', monospace !important;
 }
 
