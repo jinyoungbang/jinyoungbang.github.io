@@ -23,11 +23,16 @@
 
         <!-- Javascript -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/script.js"></script>
 
         <!-- Google Analytics -->
     </head>
 
     <body>
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
         <!-- Navbar -->
         <header>
             <div id="navbar" class="container-fluid">
@@ -224,6 +229,9 @@
          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
          <script>
            AOS.init();
+            jQuery(window).load(function(){
+            jQuery('#overlay').fadeOut();
+            });
          </script>
     </body>
 </html>
