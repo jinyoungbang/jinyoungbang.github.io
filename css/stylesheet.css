@@ -21,7 +21,7 @@ body {
     overflow-x: hidden;
     background-color: #f1f1f1;
     font-family: 'Nanum Gothic', sans-serif !important;
-    color: #8f8f8f;
+    color: white;
     min-height: 100%;
     width: 100%;  
     }
@@ -51,7 +51,7 @@ body {
 }
 
 #hero-page h1 {
-    color: black;
+    color: whitesmoke;
     font-weight: 600;
 }
 
@@ -59,6 +59,7 @@ body {
     font-size: 1.5rem;
     color: #f2b04e;
     font-family: 'VT323', monospace !important;
+    
 }
 
 
@@ -66,7 +67,7 @@ body {
 #icons i::before{
     transition: all 0.2s ease-in-out;
     border-radius: 100%;
-    border: solid 1px black;
+    border: solid 1px whitesmoke;
     display: block;
     font-size: 0.7em;
     height: 2.5em;
@@ -130,7 +131,7 @@ footer {
 
 a {
     font-weight: 900;
-    color: black;
+    color: blanchedalmond;
     text-decoration: none;
     text-decoration: none;
     white-space: nowrap;
@@ -141,4 +142,10 @@ a {
 a:hover{
     color: inherit; /* Inherits color property from its parent */
     text-decoration: none;
+}
+
+.overall-bg {
+    background-size: cover !important;
+    background: url(../img/bg/snowBg.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
