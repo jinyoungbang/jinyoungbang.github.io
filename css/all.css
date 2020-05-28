@@ -301,6 +301,9 @@ readers do not read off random characters that represent icons */
 .fa-linkedin-in:before {
   content: "\f0e1"; }
 
+  .fa-chevron-down:before {
+    content: "\f078"; }
+
 
 
 .sr-only {
