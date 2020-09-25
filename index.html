@@ -1,103 +1,91 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>I'm Alex!</title>
-	<link rel="shortcut icon" href="img/favicon.png">
-
-	<meta name="description" content="Software engineer focused on building reliable and scalable applications">
-	<meta name="keywords"
-		content="software, developer, engineer, data, science, jin young, alex, bang, boston, boston university">
-	<meta itemprop="name" content="Jin Young (Alex) Bang | Software Engineer">
-	<meta itemprop="description"
-		content="Software Engineer exploring the realms of programming and gaining practical experience in the real world in order to use the knowledge to empower society and the world.">
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="css/all.min.css">
-	<link rel="stylesheet" href="css/hover.min.css">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/stylesheet.css">
-
-
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-	<!-- Javascript -->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Jin Young Bang</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jin Young Bang" />
+    <meta name="description" content="Software engineer focused on building reliable and scalable applications">
+    <meta name="keywords"
+        content="software, developer, engineer, data, science, jin young, alex, bang, boston, boston university">
+    <meta itemprop="name" content="Jin Young (Alex) Bang | Software Engineer">
+    <meta itemprop="description"
+        content="Software Engineer exploring the realms of programming and gaining practical experience in the real world in order to use the knowledge to empower society and the world.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">jyb.</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="ko/resume.html">이력서</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="ko/projects.html">프로젝트</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="ko/contacts.html">연락처</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+    <div id="container">
+        <div id="top">
+            <h1>Jin Young (Alex) Bang</h1>
+        </div>
+        <div id="summarysection">
+            <strong>NOTE: Currently seeking Spring/Summer 2021 internships!</strong><br>
+        </div>
+        <div id="contentsection">
+            <p class="title">Experience</p>
+            <p class="subtitle"><a href="https://www.omnious.com/">Omnious</a>, Data Engineering Intern</p>
+            <p class="subtitleinfo">June 2020 - August 2020</p>
+            <ul class="content">
+                <li>Leveraged word embedding to build a fashion tag similarity NLP model that clusters Korean keywords
+                    through modified K-means clustering</li>
+                <li>Conducted research on Korean word segmentation techniques to increase overall accuracy of NLP model
+                </li>
+                <li>Developed ETL data pipelines using Scrapy to concurrently crawl and process over 10,000 requests
+                    hourly</li>
+                <li>Managed automation process of data processing by utilizing AWS ECR, Docker, and Rancher</li>
+            </ul>
 
-	<header class="masthead">
-		<div class="container h-100">
-			<div class="row h-100 align-items-center justify-content-center text-center">
-				<div class="col-lg-10 align-self-end">
-					<h1 class="text-uppercase text-white font-weight-bold">
-						방진영 | Jin Young Bang
-					</h1>
-					<hr class="divider my-4" />
-				</div>
-				<div class="col-lg-8 align-self-baseline">
-					<p class="text-white-75 font-weight-light mb-5">안녕하세요. 저는 보스턴대학교에서 재학중인 방진영입니다.
-						지금 컴퓨터과학을 배우는중이고 프로그래밍대해 더 많은거를 알고싶고 새로운것을 배우고싶은 욕심이많습니다. 인턴할수있는 기회를주시면 무조건 열심히 노력을하고 회사를 위해
-						가치를만들수있는 개발자가 되겠습니다.
-						감사합니다!
-					</p>
-				</div>
-			</div>
-		</div>
-	</header>
+            <p class="break"></p>
 
-	<footer class="footer">
-		<div class="container">
-			<span class="text-muted">&copy; 2020 Jin Young Bang.</span>
-		</div>
-	</footer>
+            <p class="subtitle"><a href="https://www.cs.bu.edu/courses/cs111/">Boston University</a>, Course Assistant</p>
+            <p class="subtitleinfo">January 2020 - Current</p>
+            <ul class="content">
+                <li>Conducted weekly office hours and labs to assist ~20 students to learn computational problem-solving
+                    skills and fundamentals of programming in Python</li>
+            </ul>
 
-	<div class="loader-wrapper">
-		<span class="loader"><span class="loader-inner"></span></span>
-	</div>
+            <p class="break"></p>
 
+            <p class="subtitle"><a href="http://bostonhacks.io/">BostonHacks</a>, Software Developer / Organizer</p>
+            <p class="subtitleinfo">March 2019 - Current</p>
+            <ul class="content">
+                <li>Building an open-source registration portal, Cacioepepe, using VueJS, NodeJS, and Google Firebase
+                </li>
+                <li>Architected and planned Cacioepepe’s Firebase Database schemas for applications and types of users
+                </li>
+                <li>Saved ~97% of manual download time by implementing a firebase function where sponsors can download
+                    all or selected resumes of hackers as a ZIP file</li>
+            </ul>
+
+            <p class="break"></p>
+
+            <p class="subtitle"><a href="https://www.jakartamrt.co.id/">PT Mass Rapid Transit Jakarta</a>, Software Engineering Intern</p>
+            <p class="subtitleinfo">June 2019 - August 2019</p>
+            <ul class="content">
+                <li>Designed RESTful API controllers and validators for Knowledge Management System (KMS), an internal
+                    tool dedicated to storing and accessing knowledge, increasing efficiency in employee’s workflow</li>
+                <li>Integrated back-end of CRUD file system with taxonomy structure, streamlining data management
+                </li>
+                <li>Reduced file upload size by 23% through modifying uploading process of KMS from base64-encoding to
+                    direct file upload</li>
+            </ul>
+
+            <p class="break"></p>
+
+            <p class="title">Education</p>
+            <p class="subtitle"><a href="https://www.bu.edu/">Boston University</a></p>
+            <p class="subtitleinfo">Bachelor of Arts in Computer Science | GPA: 3.85/4.00</p>
+            <ul class="content">
+                <li>Awards & Honors: Trustee Scholar: Full Tuition Merit Scholarship, Dean's List (All semesters)</li>
+                <li>Relevant Coursework: Analysis of Algorithms, Computing Systems, Data Structures, Linear Algebra, Probability, Artificial Intelligence (Current), Functional Programming (Current), Software Engineering (Current)
+                </li>
+            </ul>
+            <br>
+        </div>
+    </div>
 </body>
-
 
 </html>
